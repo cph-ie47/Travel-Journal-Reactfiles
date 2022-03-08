@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter;
+  color: #2B283A;
+}
+
+.navbar {
+  background: #F55A5A;
+  color:white;
+}
+
+.navbar-brand {
+  display:inline-block;
+  padding-left:10px;
+  margin:0 auto;
+}
+
+h1 {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.46px;
+  line-height: 17.5px;
+  letter-spacing: -0.075em;
+}
+
+.cards-list {
+  margin-top:50px;
+}
+
+.card--image-hero {
+  width: 100%;
+  height: 250px;
+}
+
+.card--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px
+}
+
+.card--location {
+  text-transform: uppercase;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12.39px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-left:10px;
+}
+
+.fa-location-dot {
+  color:#F55A5A;
+}
+
+.card--map {
+  margin-left:20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.card--title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin-top:5px;
+}
+
+.card--date {
+  margin-top:20px;
+  margin-bottom: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #2B283A;
+}
